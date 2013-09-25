@@ -19,6 +19,7 @@ setup(
         'django_dropdown'],
     package_data={
         'django_dropdown': [
+            'static/django_dropdown/js/*',
             'static/django_dropdown/css/*']},
     classifiers=[
         'Development Status :: 5 - Production/Stable',

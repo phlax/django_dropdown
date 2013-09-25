@@ -1,1 +1,48 @@
 
+.dropdown-link,
+li > a.dropdown-link {
+    padding-left: 25px;    
+    background: url(/static/snd/img/dropdown-down.png) no-repeat 2px 7px;
+}
+
+.dropdown-link.open,
+li > a.dropdown-link.open {
+    padding-left: 25px;    
+    background: url(/static/snd/img/dropdown-up.png) no-repeat 2px 7px;
+}
+
+.dropdown ul {
+    background : #F4F4F4;
+    position: relative;
+    bottom: 0;
+    z-index: 500;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    min-width: 10em;
+    z-index: 500;
+    padding: 0; 
+    margin: 0;
+}
+
+
+.dropdown ul {
+    padding: 0; 
+    margin: 0;
+    list-style: none;
+    border: solid #ccc 1px;
+    border-width: 0 1px 1px 1px;
+}
+
+.dropdown li {
+    border-top: dashed #ccc 1px;
+    padding: .3em;
+    float: none;
+}
+
+.dropdown li a {
+    display: block;
+}
+
